@@ -1,0 +1,1 @@
+import planets from '../data/planets';
