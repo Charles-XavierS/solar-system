@@ -6,9 +6,9 @@ import MissionCard from './MissionCard';
 class Missions extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div className="Missions" data-testid="missions">
         <Title headline="Missões" />
-        <article>
+        <div className="MissionsCard">
           {missions.map(({ name, year, country, destination }) => (<MissionCard
             key={ name }
             name={ name }
@@ -17,7 +17,7 @@ class Missions extends React.Component {
             destination={ destination }
           />
           ))}
-        </article>
+        </div>
       </div>
     );
   }

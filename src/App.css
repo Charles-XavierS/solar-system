@@ -1,3 +1,134 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: black;
+  background-image: url('https://wallpaperaccess.com/full/1314186.jpg');
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+}
+
+header {
+  align-items: center;
+  background-color: rgb(92, 92, 92);
+  border: 3px solid rgb(43, 43, 43);
+  border-radius: 10px;
+  display: flex;
+  height: 55px;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.SolarSystem {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+h2 {
+  align-items: center;
+  background-color: rgb(92, 92, 92);
+  border: 2px solid rgb(43, 43, 43);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  font-family: sans-serif;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  width: 80%;
+}
+
+.SolarPlanets {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.Planet {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
+  width: 150px;
+}
+
+.Planet p {
+  color: white;
+  font-family: sans-serif;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Missions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.MissionsCard {
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.Card {
+  align-items: center;
+  background-color: rgb(92, 92, 92);
+  border: 2px solid rgb(43, 43, 43);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.MissionName {
+  border-bottom: 2px solid rgb(43, 43, 43);
+  font-family: sans-serif;
+  font-weight: 600;
+  height: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.MissionName p {
+  margin-bottom: 10px;
+}
+
+.Card p {
+  font-family: sans-serif;
   text-align: center;
 }
